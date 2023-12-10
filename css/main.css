@@ -13,6 +13,10 @@
 	src: url("../fonts/Quicksand/static/Quicksand-Regular.ttf");
 }
 
+@font-face {
+	font-family: "JostRegular1";
+	src: url("../fonts/jost/static/Jost-Regular.ttf");
+}
 
 
 @font-face {
@@ -136,9 +140,12 @@ html, body {
 	font-size:16px;
 	padding:0;
 	margin:0;
-	/*font-family: "OpenSansReg";*/
-	/*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
-	font-family: "QuicksandReg";
+	font-family: "OpenSansReg";
+	/*font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-family: "QuicksandReg";
+	 
+	 */
+	
 	font-weight: 400;
     background-color: #ebebeb;
     line-height: 1.4;
@@ -437,7 +444,7 @@ color: #0a86db !important;
 }
 
 .backpd {
-	width:95%;
+	width:100%;
 	background: #fff;
     padding: 10px;
 }
@@ -1246,4 +1253,93 @@ padding-top:15px;
     font-size: 1.2rem;
     font-weight: 600;
     border-top: 1px solid #ededed;
+}
+
+.nwp1 { 
+	text-align: center;
+    padding-bottom: 10px;
+}
+
+.nwMin1 {
+width: 100%;background: #fff;padding: 10px;overflow:hidden;
+}
+
+.nwq1_qkpq_zz {
+display:flex;width:100%;overflow:hidden;margin-bottom:12px;
+}
+
+
+.kk_flq501 {
+	width:50%;
+	flex-basis:50%;
+	overflow:hidden;
+}
+
+
+.klkq_zz_2_z {
+width:95%;
+margin:auto;
+display:flex;
+overflow:hidden;
+gap:10px;
+background:#f9f9f9;
+/*justify-content:space-between;*/
+}
+
+.klkq_zz_2_z2 {
+width:95%;
+margin:auto;
+display:flex;
+overflow:hidden;
+gap:10px;
+background: #f2f2f2;
+justify-content:space-between;
+padding: 10px;
+border-radius: 10px;
+}
+
+.klkq_zz_2_z23 {
+display:flex;
+gap:10px;
+overflow:hidden;
+}
+
+
+
+.klkq_zz_2_z_img {
+width:60px;
+height:70px;
+border-radius:10px;
+object-fit:cover;
+}
+
+
+.clq_white {
+color: #757b85;
+font-size: 13px;
+font-weight: 500;
+}
+
+
+.fclftn20 {
+font-size: 20px;
+padding-bottom:10px;
+}
+
+
+.kqlzgrn1 {
+    text-align: center;
+    font-size: 25px;
+    color: green;
+    font-weight: 600;
+}
+
+
+.odngpdqrg {
+padding-right:10px;
+}
+
+.rkred {
+    color: red;
+    font-weight: 600;
 }
