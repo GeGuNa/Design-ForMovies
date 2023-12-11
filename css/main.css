@@ -120,6 +120,7 @@
 
 a {
 	text-decoration: none; 
+    color: #000 !important;
 }
 
 a:hover {
@@ -128,7 +129,7 @@ color: #000 !important;
 }
 
 a:hover i {
-color: #fff !important;
+color: #0a86db !important;
 }
 
 * {
@@ -205,11 +206,19 @@ button {
 }
 
 .div1 a {
-color:#fff;
-font-size:16px;
-font-weight: 600;
+	color:#fff !important;
+	font-size:16px;
+	font-weight: 600;
 }
 
+
+.div1 a:hover {
+	color:#fff !important;
+}
+
+.div1 a:hover i {
+	color:#fff !important;
+}
 
 
 .div2 {
@@ -293,7 +302,7 @@ position:relative;
 
 .flexEnd div > a {
     background: #3f94d5;
-    color: #fff;
+    color: #fff !important;
     padding: 7px 10px;
     border-radius:5px;
 } 
@@ -1364,4 +1373,11 @@ padding-right:10px;
     height: 100px;
     border-radius: 10px;
     object-fit: cover;
+}
+
+.kk_more1 {
+    display: block;
+    background: #3f94d5;
+    padding: 5px;
+    color: #fff !important;
 }
