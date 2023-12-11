@@ -1073,7 +1073,7 @@ input[type=text], input[type=password] {
   margin: 8px 0;
   display: inline-block;
   box-sizing: border-box;
-  border: 2px solid #DADDEC;
+  border: 1px solid #DADDEC;
   border-radius: 3px;
   font-size: 1rem;
   color: #656880;
