@@ -1210,7 +1210,7 @@ color: #6f6f6f;
 
 
 .knq_zlgenres {
-	width: 95%;
+	width: 100%;
     background: #fff;
     padding: 10px;
     margin-bottom: 20px;
@@ -1274,7 +1274,10 @@ width: 100%;background: #fff;padding: 10px;overflow:hidden;
 }
 
 .nwq1_qkpq_zz {
-display:flex;width:100%;overflow:hidden;margin-bottom:12px;
+display:flex;
+width:100%;
+overflow:hidden;
+margin-bottom:12px;
 }
 
 
@@ -1283,6 +1286,32 @@ display:flex;width:100%;overflow:hidden;margin-bottom:12px;
 	flex-basis:50%;
 	overflow:hidden;
 }
+
+
+
+@media (max-width: 800px) {
+
+
+.nwq1_qkpq_zz {
+	display:flex;
+	width:100%;
+	overflow:hidden;
+	margin-bottom:12px;
+	flex-direction:column;
+	row-gap: 15px;
+}
+
+
+.kk_flq501 {
+    width: 100%;
+    flex-basis: 100%;
+    overflow: hidden;
+}
+
+
+}
+
+
 
 
 .klkq_zz_2_z {
