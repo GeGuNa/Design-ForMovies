@@ -1436,6 +1436,27 @@ object-fit:cover;
 display:flex;gap:20px;width:100%;overflow:hidden;
 }
 
+@media (max-width: 500px) {
+
+	.frrqzdr1 {
+	display:flex;
+	gap:20px;
+	width:100%;
+	overflow:hidden;
+	flex-direction:column;
+	}
+
+.klkq_zz_2_z_imgfrrd {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+}
+
 .h2 h2 {
 margin-bottom:0.3rem;
 }
